@@ -1,4 +1,4 @@
-lst_fruits = ['pineapple', 'pear', 'apricot', 'peach']
+num_list = (input('Type numbers separated by space: ')).split()
 
-for fruit in lst_fruits:
-    print(f'Fruits: {fruit}')
+num_list.reverse()
+print(num_list)
