@@ -67,6 +67,4 @@ for i in range(0,3):
     new_list.append(slice[i]["name"])
     new_list.append(f'Original price is : {slice[i]["price"]}')
     new_list.append(f'Discounted price is {int(slice[i]["price"]) * 90 // 100}')
-
-
 print(new_list)
