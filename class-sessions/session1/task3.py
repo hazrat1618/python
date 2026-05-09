@@ -1,3 +1,4 @@
-celcius = int(input('Type the celcius degree: '))
-fahrenheit = celcius * 9/5 + 32
-print(int(fahrenheit))
+celcius = int(input("type celc degree: "))
+farenheit = celcius * 1.8 + 32
+
+print(int(farenheit))
